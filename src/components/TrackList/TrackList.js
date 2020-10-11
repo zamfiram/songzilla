@@ -1,12 +1,11 @@
 import React from 'react';
 import './TrackList.css';
+import Track from "../Track/Track";
 
 const TrackList = () => {
     return (
         <div className="TrackList">
-            <p>TrackList 1</p>
-            <p>TrackList 2</p>
-            <p>TrackList 3</p>
+           <Track />
         </div>
     )
 }
