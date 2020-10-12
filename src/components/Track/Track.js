@@ -18,7 +18,7 @@ class Track extends React.Component {
           <h3>Track name</h3>
           <p>Track artist | Track album</p>
         </div>
-        {this.renderAction}
+        {this.renderAction()}
       </div>
     );
   }
