@@ -64,7 +64,7 @@ addTrack(track){
         <div className="App">
           <SearchBar />
           <div className="App-playlist"></div>
-          <SearchResults searchResults={this.state.searchResults} />
+          <SearchResults searchResults={this.state.searchResults} onAdd={this.addTrack}/>
           <Playlist playlistName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
         </div>
       </div>
