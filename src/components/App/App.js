@@ -42,7 +42,18 @@ class App extends React.Component {
         },
       ],
     };
+    this.addTrack = this.addTrack.bind(this);
   }
+
+
+addTrack(track){
+  if (this.state.playlistTracks.find(savedTrack => savedTrack.id === track.id)){
+    return; 
+  }
+  this.state.playlistTracks.push(track);
+  this.setState({playlistTracks: this.state.playlistTracks})
+}
+
 
   render() {
     return (
