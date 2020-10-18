@@ -18,7 +18,7 @@ h1 {
 }
 
 h1 .highlight {
-  color: #FF4365;
+  color: #C589E8;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 ::-webkit-scrollbar-thumb{
   background: linear-gradient(
-    45deg, #06dee1, #79ff6c
+    45deg, #C589E8, #7EE8FA
   );
   border-radius: 3px;
 }

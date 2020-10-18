@@ -10,6 +10,19 @@
   display: flex;
 }
 
+.SearchResults h2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  margin-top: 1.8rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #6f6f6f;
+  font-family: 'Caudex', serif;
+  font-size: 1.55rem;
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background: black;
