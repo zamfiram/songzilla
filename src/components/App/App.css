@@ -38,10 +38,24 @@ h2 {
   font-weight: 500;
   color: #fff;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  border: 7px solid #fff;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(
+    45deg, #06dee1, #79ff6c
+  );
+  border-radius: 3px;
+}
 
 .App-playlist {
   display: flex;
   justify-content: space-between;
+  /* flex-direction: column; */
   width: 100%;
 }
 

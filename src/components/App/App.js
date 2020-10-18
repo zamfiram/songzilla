@@ -62,7 +62,7 @@ class App extends React.Component {
         </h1>
         <div className="App">
           <SearchBar onSearch={this.search} />
-          <div className="App-playlist"></div>
+          <div className="App-playlist">
           <SearchResults
             searchResults={this.state.searchResults}
             onAdd={this.addTrack}
@@ -74,6 +74,7 @@ class App extends React.Component {
             onNameChange={this.updatePlaylistName}
             onSave={this.savePlaylist}
           />
+          </div>
         </div>
       </div>
     );
