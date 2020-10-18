@@ -1,5 +1,4 @@
-import { render } from "@testing-library/react";
-import React, { Component } from "react";
+import React from "react";
 import "./Track.css";
 
 class Track extends React.Component {
@@ -11,9 +10,9 @@ class Track extends React.Component {
 
   renderAction() {
     if (this.props.isRemoval) {
-      return <button className="Track-action" onClick={this.removeTrack}>-</button>;
+      return <a className="Track-action" onClick={this.removeTrack}>-</a>;
     } else {
-      return <button className="Track-action" onClick={this.addTrack}>+</button>;
+      return <a className="Track-action" onClick={this.addTrack}>+</a>;
     }
   }
 

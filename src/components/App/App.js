@@ -10,7 +10,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchResults: [],
-      playlistName: "Favourite playlist",
+      playlistName: "New Playlist",
       playlistTracks: [],
     };
     this.addTrack = this.addTrack.bind(this);
